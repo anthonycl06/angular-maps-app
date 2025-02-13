@@ -1,1 +1,11 @@
-<div #map></div>
+@if (!isUserLocationReady) {
+  <app-loading />
+} @else {
+  <div #map></div>
+
+  <app-btn-my-location />
+
+  <app-search-bar />
+}
+
+<app-angular-logo />

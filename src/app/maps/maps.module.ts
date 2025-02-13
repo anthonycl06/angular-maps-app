@@ -14,6 +14,10 @@ import { ZoomRangePageComponent } from './pages/zoom-range-page/zoom-range-page.
 import { environment } from '../../environments/environment';
 import { CounterAloneComponent } from "../alone/components/counter-alone/counter-alone.component";
 import { SideMenuComponent } from "../alone/components/side-menu/side-menu.component";
+import { LoadingComponent } from "./components/loading/loading.component";
+import { AngularLogoComponent } from "./components/angular-logo/angular-logo.component";
+import { BtnMyLocationComponent } from "./components/btnMyLocation/btnMyLocation.component";
+import { SearchBarComponent } from "./components/search-bar/search-bar.component";
 
 
 @NgModule({
@@ -29,7 +33,11 @@ import { SideMenuComponent } from "../alone/components/side-menu/side-menu.compo
     CommonModule,
     MapsRoutingModule,
     CounterAloneComponent,
-    SideMenuComponent
+    SideMenuComponent,
+    LoadingComponent,
+    AngularLogoComponent,
+    BtnMyLocationComponent,
+    SearchBarComponent
 ]
 })
 export class MapsModule { }
